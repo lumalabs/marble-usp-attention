@@ -1,0 +1,14 @@
+run          layout             R  chunks refine   k  imb(plan/log)  ms      fit     tau=6.4e6  leave-one-out
+bagel32k:4   bagel_video_1024k  8      - True      8  1.0223/1.0223   405.4  -0.38%   +0.55%    -0.45%
+bagel32k:3   bagel_video_2048k  8      - True     16  1.0116/1.0116  1006.4  +1.75%   +3.08%    +2.28%
+bagel32k:1   bagel_video_4096k  8      - True     32  1.0060/1.0060  1844.2  +0.09%   +1.24%    +0.11%
+bagel32g:5   bagel_video_4096k  8      - True     32  1.0060/1.0060  1849.9  -0.22%   +0.93%    -0.27%
+bagel32k:2   bagel_video_4096k  8     64 False    64  1.0278/1.0278  1925.1  +1.27%   +1.04%    +1.44%
+bagel64d:1   bagel_video_8192k  16     - True     32  1.0289/1.0289  2180.2  -1.71%   -1.68%    -1.92%
+bagel64e:1   bagel_video_8192k  16     - True     32  1.0289/1.0289  2179.2  -1.67%   -1.64%    -1.87%
+bagel64e:2   bagel_video_8192k  16    64 False    64  1.1083/1.1083  2379.1  +0.99%   -1.08%    +1.62%
+bagel64e:3   bagel_video_8192k  16    64 True     64  1.0111/1.0111  2228.2  -0.26%   -2.69%    -0.51%
+fit: tau = 1.14e+07 pairs, a = 21.87 ms per 1e9 pairs; planner tau 6.4e+06
+fit   : 9/9 within 3%, max |err| 1.75%
+fixed : 8/9 within 3%, max |err| 3.08%
+loo   : 9/9 within 3%, max |err| 2.28%

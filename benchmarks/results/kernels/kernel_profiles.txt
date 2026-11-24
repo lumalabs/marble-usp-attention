@@ -1,0 +1,92 @@
+== fm_molmo2_mixed_512k.json  span 89.8 ms, kernel sum 88.0 ms
+        46.11 ms x  1 kernel_cutlass_kernel_flashmaskcuteflash_bwd_sm90FlashAttentionBackwardSm90_object_at__tensor0000o11101213_ten
+        17.68 ms x  1 kernel_cutlass_kernel_flashmaskcuteflash_fwd_sm90FlashAttentionForwardSm90_object_at__tensor0000o11101213_tens
+         3.50 ms x  8 void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_
+== fm_molmo2_mixed_512k_fwd.json  span 25.2 ms, kernel sum 24.3 ms
+        17.67 ms x  1 kernel_cutlass_kernel_flashmaskcuteflash_fwd_sm90FlashAttentionForwardSm90_object_at__tensor0000o11101213_tens
+         1.75 ms x  4 void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_
+         0.01 ms x  2 void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_
+== fm_molmo2_video_512k.json  span 234.9 ms, kernel sum 233.2 ms
+        82.18 ms x  1 kernel_cutlass_kernel_flashmaskcuteflash_bwd_sm90FlashAttentionBackwardSm90_object_at__tensor0000o11101213_ten
+        28.21 ms x  1 kernel_cutlass_kernel_flashmaskcuteflash_fwd_sm90FlashAttentionForwardSm90_object_at__tensor0000o11101213_tens
+         3.67 ms x  8 void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_
+== fm_molmo2_video_512k_fwd.json  span 40.5 ms, kernel sum 39.6 ms
+        28.18 ms x  1 kernel_cutlass_kernel_flashmaskcuteflash_fwd_sm90FlashAttentionForwardSm90_object_at__tensor0000o11101213_tens
+         1.75 ms x  4 void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_
+         0.01 ms x  2 void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_
+== freemask_molmo2_mixed_512k.json  span 81.6 ms, kernel sum 81.2 ms
+        49.48 ms x  1 kernel_cutlass_kernel_flash_attncuteflash_bwd_sm90FlashAttentionBackwardSm90_object_at__tensor0000o11101213_te
+        16.75 ms x  1 kernel_cutlass_kernel_flash_attncuteflash_fwd_sm90FlashAttentionForwardSm90_object_at__tensor0000o41112104113_
+         3.60 ms x  8 void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_
+== freemask_molmo2_video_512k.json  span 132.8 ms, kernel sum 132.4 ms
+        84.13 ms x  1 kernel_cutlass_kernel_flash_attncuteflash_bwd_sm90FlashAttentionBackwardSm90_object_at__tensor0000o11101213_te
+        26.75 ms x  1 kernel_cutlass_kernel_flash_attncuteflash_fwd_sm90FlashAttentionForwardSm90_object_at__tensor0000o41112104113_
+         3.59 ms x  8 void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_
+== ours_molmo2_mixed_512k.json  span 118.2 ms, kernel sum 117.8 ms
+        55.49 ms x  1 kernel_cutlass_kernel_flash_attncuteflash_bwd_sm90FlashAttentionBackwardSm90_object_at__tensor0000o11101213_te
+        18.59 ms x  1 kernel_cutlass_kernel_flash_attncuteflash_fwd_sm90FlashAttentionForwardSm90_object_at__tensor0000o41112104113_
+         3.58 ms x  8 void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_
+== ours_molmo2_mixed_512k_fwd.json  span 28.0 ms, kernel sum 27.7 ms
+        18.58 ms x  1 kernel_cutlass_kernel_flash_attncuteflash_fwd_sm90FlashAttentionForwardSm90_object_at__tensor0000o41112104113_
+         1.76 ms x  4 void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_
+== ours_molmo2_video_512k.json  span 152.0 ms, kernel sum 151.6 ms
+        88.96 ms x  1 kernel_cutlass_kernel_flash_attncuteflash_bwd_sm90FlashAttentionBackwardSm90_object_at__tensor0000o11101213_te
+        29.16 ms x  1 kernel_cutlass_kernel_flash_attncuteflash_fwd_sm90FlashAttentionForwardSm90_object_at__tensor0000o41112104113_
+         3.58 ms x  8 void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_
+== ours_molmo2_video_512k_fwd.json  span 37.7 ms, kernel sum 37.4 ms
+        29.00 ms x  1 kernel_cutlass_kernel_flash_attncuteflash_fwd_sm90FlashAttentionForwardSm90_object_at__tensor0000o41112104113_
+         1.76 ms x  4 void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_
+== rp_usp_attention_R2U4.json  span 216.7 ms, kernel sum 228.0 ms
+       130.14 ms x  2 kernel_cutlass_kernel_flash_attncuteflash_bwd_sm90FlashAttentionBackwardSm90_object_at__tensor0000o11101213_te
+        44.64 ms x  2 kernel_cutlass_kernel_usp_attentiononline_flashonline_flash_fwd_sm90OnlineFlashAttentionForwardSm90_object_at_
+         7.15 ms x  8 void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_
+== rp_usp_attention_R8U1.json  span 277.5 ms, kernel sum 344.4 ms
+       143.69 ms x  8 kernel_cutlass_kernel_flash_attncuteflash_bwd_sm90FlashAttentionBackwardSm90_object_at__tensor0000o11101213_te
+        61.90 ms x  8 kernel_cutlass_kernel_usp_attentiononline_flashonline_flash_fwd_sm90OnlineFlashAttentionForwardSm90_object_at_
+== rp_usp_base_R2U4.json  span 214.4 ms, kernel sum 223.0 ms
+       129.05 ms x  2 kernel_cutlass_kernel_flash_attncuteflash_bwd_sm90FlashAttentionBackwardSm90_object_at__tensor0000o11101213_te
+        45.87 ms x  2 kernel_cutlass_kernel_usp_attentiononline_flashonline_flash_fwd_sm90OnlineFlashAttentionForwardSm90_object_at_
+         7.23 ms x  8 void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_
+== rp_usp_base_R8U1.json  span 274.0 ms, kernel sum 350.5 ms
+       137.39 ms x  8 kernel_cutlass_kernel_flash_attncuteflash_bwd_sm90FlashAttentionBackwardSm90_object_at__tensor0000o11101213_te
+        70.64 ms x  8 kernel_cutlass_kernel_usp_attentiononline_flashonline_flash_fwd_sm90OnlineFlashAttentionForwardSm90_object_at_
+== rp_usp_free_R2U4.json  span 246.4 ms, kernel sum 258.3 ms
+       109.58 ms x  2 kernel_cutlass_kernel_flash_attncuteflash_bwd_sm90FlashAttentionBackwardSm90_object_at__tensor0000o11101213_te
+        36.97 ms x  2 kernel_cutlass_kernel_usp_attentiononline_flashonline_flash_fwd_sm90OnlineFlashAttentionForwardSm90_object_at_
+         7.18 ms x  8 void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_
+== rp_usp_free_R8U1.json  span 244.8 ms, kernel sum 302.9 ms
+       120.69 ms x  8 kernel_cutlass_kernel_flash_attncuteflash_bwd_sm90FlashAttentionBackwardSm90_object_at__tensor0000o11101213_te
+        47.31 ms x  8 kernel_cutlass_kernel_usp_attentiononline_flashonline_flash_fwd_sm90OnlineFlashAttentionForwardSm90_object_at_
+== fo_usp_attention_R1U8.json  span 204.0 ms, kernel sum 203.6 ms
+       110.40 ms x  1 kernel_cutlass_kernel_flash_attncuteflash_bwd_sm90FlashAttentionBackwardSm90_object_at__tensor0000o11101213_te
+        36.69 ms x  1 kernel_cutlass_kernel_flash_attncuteflash_fwd_sm90FlashAttentionForwardSm90_object_at__tensor0000o41112104113_
+         7.24 ms x  8 void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_
+== fo_usp_attention_R2U4.json  span 237.9 ms, kernel sum 269.5 ms
+       130.37 ms x  2 kernel_cutlass_kernel_flash_attncuteflash_bwd_sm90FlashAttentionBackwardSm90_object_at__tensor0000o11101213_te
+        46.82 ms x  2 kernel_cutlass_kernel_usp_attentiononline_flashonline_flash_fwd_sm90OnlineFlashAttentionForwardSm90_object_at_
+         7.10 ms x  8 void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_
+== fo_usp_attention_R8U1.json  span 278.9 ms, kernel sum 345.4 ms
+       144.06 ms x  8 kernel_cutlass_kernel_flash_attncuteflash_bwd_sm90FlashAttentionBackwardSm90_object_at__tensor0000o11101213_te
+        62.15 ms x  8 kernel_cutlass_kernel_usp_attentiononline_flashonline_flash_fwd_sm90OnlineFlashAttentionForwardSm90_object_at_
+== fo_usp_base_R1U8.json  span 211.3 ms, kernel sum 210.9 ms
+       115.80 ms x  1 kernel_cutlass_kernel_flash_attncuteflash_bwd_sm90FlashAttentionBackwardSm90_object_at__tensor0000o11101213_te
+        38.41 ms x  1 kernel_cutlass_kernel_flash_attncuteflash_fwd_sm90FlashAttentionForwardSm90_object_at__tensor0000o41112104113_
+         7.13 ms x  8 void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_
+== fo_usp_base_R2U4.json  span 227.4 ms, kernel sum 239.8 ms
+       127.22 ms x  2 kernel_cutlass_kernel_flash_attncuteflash_bwd_sm90FlashAttentionBackwardSm90_object_at__tensor0000o11101213_te
+        45.32 ms x  2 kernel_cutlass_kernel_usp_attentiononline_flashonline_flash_fwd_sm90OnlineFlashAttentionForwardSm90_object_at_
+         7.09 ms x  8 void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_
+== fo_usp_base_R8U1.json  span 281.1 ms, kernel sum 319.9 ms
+       137.69 ms x  8 kernel_cutlass_kernel_flash_attncuteflash_bwd_sm90FlashAttentionBackwardSm90_object_at__tensor0000o11101213_te
+        66.21 ms x  8 kernel_cutlass_kernel_usp_attentiononline_flashonline_flash_fwd_sm90OnlineFlashAttentionForwardSm90_object_at_
+== fo_usp_fwd_R1U8.json  span 212.6 ms, kernel sum 212.2 ms
+       116.14 ms x  1 kernel_cutlass_kernel_flash_attncuteflash_bwd_sm90FlashAttentionBackwardSm90_object_at__tensor0000o11101213_te
+        36.69 ms x  1 kernel_cutlass_kernel_flash_attncuteflash_fwd_sm90FlashAttentionForwardSm90_object_at__tensor0000o41112104113_
+         7.12 ms x  8 void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_
+== fo_usp_fwd_R2U4.json  span 235.4 ms, kernel sum 246.4 ms
+       129.51 ms x  2 kernel_cutlass_kernel_flash_attncuteflash_bwd_sm90FlashAttentionBackwardSm90_object_at__tensor0000o11101213_te
+        44.90 ms x  2 kernel_cutlass_kernel_usp_attentiononline_flashonline_flash_fwd_sm90OnlineFlashAttentionForwardSm90_object_at_
+         7.17 ms x  8 void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_
+== fo_usp_fwd_R8U1.json  span 290.8 ms, kernel sum 348.0 ms
+       137.94 ms x  8 kernel_cutlass_kernel_flash_attncuteflash_bwd_sm90FlashAttentionBackwardSm90_object_at__tensor0000o11101213_te
+        60.73 ms x  8 kernel_cutlass_kernel_usp_attentiononline_flashonline_flash_fwd_sm90OnlineFlashAttentionForwardSm90_object_at_

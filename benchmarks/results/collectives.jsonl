@@ -1,0 +1,1 @@
+{"bench": "collectives", "world": 16, "mib": 512, "all_reduce_world_busbw_gbps": 139.1696402996166, "all_to_all_intra_node_busbw_gbps": 310.98865531925543, "all_to_all_inter_node_busbw_gbps": 16.156437185486475, "ring_p2p_inter_node_gbps_per_rank": 20.268017175028515}

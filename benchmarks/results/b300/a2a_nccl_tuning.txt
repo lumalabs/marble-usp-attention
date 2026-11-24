@@ -1,0 +1,15 @@
+== X=default
+A2A_STEP_MS 11.42  (4.00 GiB moved per rank per step)
+== NCCL_P2P_USE_CUDA_MEMCPY=1
+A2A_STEP_MS 64.14  (4.00 GiB moved per rank per step)
+== NCCL_MIN_P2P_NCHANNELS=16
+A2A_STEP_MS 11.41  (4.00 GiB moved per rank per step)
+== NCCL_MIN_P2P_NCHANNELS=32
+A2A_STEP_MS 11.43  (4.00 GiB moved per rank per step)
+== NCCL_MIN_P2P_NCHANNELS=32 NCCL_P2P_NVL_CHUNKSIZE=2097152
+A2A_STEP_MS 11.41  (4.00 GiB moved per rank per step)
+== NCCL_P2P_NVL_CHUNKSIZE=2097152
+A2A_STEP_MS 11.40  (4.00 GiB moved per rank per step)
+== NCCL_MIN_NCHANNELS=32
+A2A_STEP_MS 11.41  (4.00 GiB moved per rank per step)
+TUNE_DONE

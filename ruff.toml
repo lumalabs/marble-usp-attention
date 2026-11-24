@@ -1,0 +1,5 @@
+[lint]
+ignore = ["F722", "E722", "E731", "E402", "E741"]
+extend-select = ["I", "FA100", "UP006", "UP007"]
+[lint.isort]
+known-first-party = ["usp_attention"]

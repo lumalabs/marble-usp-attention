@@ -1,0 +1,9 @@
+{
+  "layouts": [
+    {
+      "document_lens": [4096],
+      "split_lens": [512, 1024, 512, 1024, 1024],
+      "attn_modes": ["causal", "noise", "causal", "noise", "causal"]
+    }
+  ]
+}

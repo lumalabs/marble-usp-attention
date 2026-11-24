@@ -1,0 +1,17 @@
+// SPDX-FileCopyrightText: 2026 The MoonMath.ai
+// SPDX-FileCopyrightText: 2026 Luma AI, Inc.
+// SPDX-License-Identifier: MIT
+// Round mode shim: RTZ (round-toward-zero / truncate)
+// Compiles attention_kernel.hip with BF16_ROUND=RTZ and renames the extern "C" symbols
+// so all three round modes can coexist in the same extension.
+
+#define BF16_ROUND RTZ
+#define launch_attention_forward launch_attention_forward_rtz
+#define launch_attention_forward_lite launch_attention_forward_lite_rtz
+#define launch_v_transpose launch_v_transpose_rtz
+#define tail_workspace_bytes tail_workspace_bytes_rtz
+#define lite_workspace_bytes lite_workspace_bytes_rtz
+#define launch_attention_online launch_attention_online_rtz
+#define ring_state_bytes ring_state_bytes_rtz
+
+#include "attention_kernel.hip"

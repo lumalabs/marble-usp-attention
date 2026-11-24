@@ -1,0 +1,4 @@
+{"label": "llama_32q8kv_docs_256k_r8u1", "bf16_grads_ms": 138.67, "fp32_grads_ms": 133.48}
+{"label": "llama_32q8kv_docs_256k_r2u4", "bf16_grads_ms": 108.24, "fp32_grads_ms": 105.65}
+{"label": "mha_32q_mixed_256k_r8u1", "bf16_grads_ms": 224.18, "fp32_grads_ms": 220.47}
+{"label": "mha_32q_mixed_256k_r2u4", "bf16_grads_ms": 193.06, "fp32_grads_ms": 191.3}

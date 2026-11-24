@@ -1,0 +1,17 @@
+// SPDX-FileCopyrightText: 2026 The MoonMath.ai
+// SPDX-FileCopyrightText: 2026 Luma AI, Inc.
+// SPDX-License-Identifier: MIT
+// Round mode shim: RTNA (round-ties-away-from-zero)
+// Compiles attention_kernel.hip with BF16_ROUND=RTNA and renames the extern "C" symbols
+// so all three round modes can coexist in the same extension.
+
+#define BF16_ROUND RTNA
+#define launch_attention_forward launch_attention_forward_rtna
+#define launch_attention_forward_lite launch_attention_forward_lite_rtna
+#define launch_v_transpose launch_v_transpose_rtna
+#define tail_workspace_bytes tail_workspace_bytes_rtna
+#define lite_workspace_bytes lite_workspace_bytes_rtna
+#define launch_attention_online launch_attention_online_rtna
+#define ring_state_bytes ring_state_bytes_rtna
+
+#include "attention_kernel.hip"

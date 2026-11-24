@@ -1,0 +1,66 @@
+version = 1
+
+# Documentation, configuration and benchmark data.
+[[annotations]]
+path = [
+    "**/*.md",
+    "**/.gitignore",
+    ".python-version",
+    "pyproject.toml",
+    "ruff.toml",
+    "uv.lock",
+    "REUSE.toml",
+    "CITATION.cff",
+    "benchmarks/results/**",
+    "benchmarks/baselines/flashmask_runs/lists/**",
+    "benchmarks/layouts/**",
+    "repro/layouts/*.json",
+    "repro/validation/**",
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Luma AI, Inc."
+SPDX-License-Identifier = "MIT"
+
+# Vendored unmodified-header file; its copyright notice stays in the file.
+[[annotations]]
+path = "src/usp_attention/online_flash_amd/csrc/opus.hpp"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2025-2026 carlus.huang@amd.com"
+SPDX-License-Identifier = "MIT"
+
+# Verbatim upstream license and authors files.
+[[annotations]]
+path = ["third_party_licenses/flash-attention-LICENSE", "third_party_licenses/flash-attention-AUTHORS"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2022 the FlashAttention contributors"
+SPDX-License-Identifier = "BSD-3-Clause"
+
+[[annotations]]
+path = "third_party_licenses/moonmath-amd-kernels-LICENSE"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 The MoonMath.ai"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "third_party_licenses/pytorch-LICENSE"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2016- Facebook, Inc and the PyTorch contributors"
+SPDX-License-Identifier = "BSD-3-Clause"
+
+[[annotations]]
+path = "third_party_licenses/bagel-LICENSE"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2025 Bytedance Ltd. and/or its affiliates"
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = "third_party_licenses/yunchang-LICENSE"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Jiarui Fang and the YunChang contributors"
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = "third_party_licenses/flashmask-LICENSE"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2025 Tri Dao and 2026 The FlashMask Authors"
+SPDX-License-Identifier = "BSD-3-Clause"

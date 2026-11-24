@@ -1,0 +1,2 @@
+--layout benchmarks/layouts/packs/qwen38_video_1024k.json#0 --seq-len 1048576 --heads 24 --kv-heads 4 --head-dim 256 --ulysses 8 --replicate-kv 2 --iters 5 --warmup 2 --ipo --label fm_q38
+--layout benchmarks/layouts/packs/qwen38_video_1024k.json#0 --seq-len 1048576 --heads 24 --kv-heads 4 --head-dim 256 --ulysses 4 --iters 5 --warmup 2 --ipo --label fm_q38

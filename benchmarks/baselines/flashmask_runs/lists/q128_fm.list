@@ -1,0 +1,5 @@
+--layout benchmarks/layouts/packs/qwen38_video_4096k.json#0 --seq-len 4194304 --heads 24 --kv-heads 4 --head-dim 256 --iters 4 --warmup 2 --ipo --label fm_q38
+--layout benchmarks/layouts/packs/qwen38_video_4096k.json#0 --seq-len 4194304 --heads 32 --kv-heads 4 --head-dim 128 --iters 4 --warmup 2 --ipo --label fm_q3vl30
+--layout benchmarks/layouts/packs/molmo2_video_4096k.json#0 --seq-len 4194304 --heads 32 --kv-heads 8 --head-dim 128 --iters 4 --warmup 2 --ipo --label fm_molmo2
+--layout benchmarks/layouts/packs/gemma3_video_4096k.json#0 --seq-len 4194304 --heads 32 --kv-heads 16 --head-dim 128 --iters 4 --warmup 2 --ipo --label fm_gemma3
+--layout benchmarks/layouts/packs/gemma3_video_4096k.json#0 --seq-len 4194304 --heads 32 --kv-heads 16 --head-dim 128 --sliding-window 1024 --iters 4 --warmup 2 --ipo --label fm_gemma3_swa

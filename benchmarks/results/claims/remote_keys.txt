@@ -1,0 +1,119 @@
+gemma3_interleaved_1024k     R4  block  avoided min  99.3% med  99.6% max  99.7%  rank0 3584
+gemma3_interleaved_1024k     R8  block  avoided min  95.3% med  96.1% max  97.9%  rank0 37248
+gemma3_interleaved_1024k     R16 block  avoided min  92.3% med  93.1% max  93.9%  rank0 60288
+gemma3_mixed_1024k           R4  block  avoided min  88.9% med  93.7% max  99.1%  rank0 87552 (measured 87552)
+gemma3_mixed_1024k           R8  block  avoided min  85.0% med  88.6% max  92.7%  rank0 75648
+gemma3_mixed_1024k           R16 block  avoided min  79.2% med  82.6% max  85.7%  rank0 189056
+gemma3_mixed_2048k           R4  block  avoided min  98.9% med  99.5% max  99.9%  rank0 3840 (measured 3840)
+gemma3_mixed_2048k           R8  block  avoided min  97.6% med  99.4% max  99.9%  rank0 44288 (measured 44288)
+gemma3_mixed_2048k           R16 block  avoided min  92.1% med  95.2% max  97.2%  rank0 83584
+gemma3_mixed_4096k           R4  block  avoided min  99.6% med  99.8% max 100.0%  rank0 12416
+gemma3_mixed_4096k           R8  block  avoided min  99.2% med  99.7% max 100.0%  rank0 1792 (measured 1792)
+gemma3_mixed_4096k           R16 block  avoided min  98.1% med  99.3% max  99.9%  rank0 30592 (measured 30592)
+gemma3_video_1024k           R4  block  avoided min  96.0% med  99.1% max  99.8%  rank0 8960 (measured 8960)
+gemma3_video_1024k           R8  block  avoided min  93.9% med  96.6% max  98.2%  rank0 25600
+gemma3_video_1024k           R16 block  avoided min  86.0% med  91.2% max  93.5%  rank0 92544
+gemma3_video_2048k           R4  block  avoided min  97.7% med  99.3% max  99.6%  rank0 35968 (measured 35968)
+gemma3_video_2048k           R8  block  avoided min  96.0% med  97.4% max  98.9%  rank0 27264 (measured 27264)
+gemma3_video_2048k           R16 block  avoided min  92.8% med  94.9% max  97.2%  rank0 108160
+gemma3_video_4096k           R4  block  avoided min  99.0% med  99.2% max  99.8%  rank0 32128
+gemma3_video_4096k           R8  block  avoided min  99.0% med  99.5% max  99.9%  rank0 35968 (measured 35968)
+gemma3_video_4096k           R16 block  avoided min  97.7% med  98.6% max  99.5%  rank0 50560 (measured 50560)
+gemma3ps_interleaved_1024k   R4  block  avoided min  96.1% med  97.7% max  98.8%  rank0 20352
+gemma3ps_interleaved_1024k   R8  block  avoided min  85.5% med  88.3% max  89.9%  rank0 131072
+gemma3ps_interleaved_1024k   R16 block  avoided min  86.4% med  88.2% max  90.2%  rank0 109440
+gemma3ps_mixed_1024k         R4  block  avoided min  96.7% med  97.7% max  98.6%  rank0 26112
+gemma3ps_mixed_1024k         R8  block  avoided min  94.7% med  98.9% max  99.6%  rank0 12800
+gemma3ps_mixed_1024k         R16 block  avoided min  78.0% med  80.6% max  86.7%  rank0 197120
+gemma3ps_video_1024k         R4  block  avoided min  96.0% med  99.1% max  99.8%  rank0 8960
+gemma3ps_video_1024k         R8  block  avoided min  93.9% med  96.6% max  98.2%  rank0 25600
+gemma3ps_video_1024k         R16 block  avoided min  86.0% med  91.2% max  93.5%  rank0 92544
+molmo2_interleaved_1024k     R4  block  avoided min  71.6% med  73.1% max  77.9%  rank0 173440
+molmo2_interleaved_1024k     R8  block  avoided min  82.7% med  86.2% max  88.7%  rank0 118784
+molmo2_interleaved_1024k     R16 block  avoided min  81.5% med  84.8% max  91.1%  rank0 142208
+molmo2_mixed_1024k           R4  block  avoided min  94.4% med  95.6% max  96.6%  rank0 26368 (measured 26368)
+molmo2_mixed_1024k           R8  block  avoided min  81.0% med  82.5% max  85.4%  rank0 134400
+molmo2_mixed_1024k           R16 block  avoided min  88.0% med  91.5% max  94.5%  rank0 53632
+molmo2_mixed_2048k           R4  block  avoided min  95.3% med  98.0% max  99.0%  rank0 15232 (measured 15232)
+molmo2_mixed_2048k           R8  block  avoided min  90.7% med  92.9% max  93.6%  rank0 122368 (measured 122368)
+molmo2_mixed_2048k           R16 block  avoided min  94.1% med  95.9% max  97.1%  rank0 71552
+molmo2_mixed_4096k           R4  block  avoided min  98.8% med  99.0% max  99.7%  rank0 34048
+molmo2_mixed_4096k           R8  block  avoided min  95.1% med  95.8% max  97.0%  rank0 109056 (measured 109056)
+molmo2_mixed_4096k           R16 block  avoided min  96.6% med  97.9% max  99.4%  rank0 90752 (measured 90752)
+molmo2_video_1024k           R4  block  avoided min  96.5% med  98.4% max 100.0%  rank0 384 (measured 384)
+molmo2_video_1024k           R8  block  avoided min  83.2% med  87.1% max  89.1%  rank0 120448
+molmo2_video_1024k           R16 block  avoided min  82.8% med  87.2% max  91.8%  rank0 142080
+molmo2_video_2048k           R4  block  avoided min  96.8% med  97.9% max  99.3%  rank0 50816 (measured 50816)
+molmo2_video_2048k           R8  block  avoided min  90.2% med  93.6% max  96.3%  rank0 180096 (measured 180096)
+molmo2_video_2048k           R16 block  avoided min  94.7% med  96.8% max  98.3%  rank0 75136
+molmo2_video_4096k           R4  block  avoided min  97.9% med  98.1% max  98.6%  rank0 65408
+molmo2_video_4096k           R8  block  avoided min  98.5% med  98.9% max  99.4%  rank0 56192 (measured 56192)
+molmo2_video_4096k           R16 block  avoided min  97.1% med  98.1% max  99.2%  rank0 34048 (measured 34048)
+qwen38_interleaved_1024k     R4  block  avoided min  86.0% med  86.9% max  89.5%  rank0 105856
+qwen38_interleaved_1024k     R4  dense  avoided min  94.6% med  95.8% max  97.2%  rank0 40500
+qwen38_interleaved_1024k     R8  block  avoided min  85.2% med  87.6% max  89.5%  rank0 136064
+qwen38_interleaved_1024k     R8  dense  avoided min  96.4% med  97.7% max  99.2%  rank0 19900
+qwen38_interleaved_1024k     R16 block  avoided min  83.9% med  87.1% max  89.9%  rank0 158208
+qwen38_interleaved_1024k     R16 dense  avoided min  83.9% med  87.1% max  89.9%  rank0 158208
+qwen38_interleaved_2048k     R4  block  avoided min  93.5% med  95.8% max  97.0%  rank0 71296
+qwen38_interleaved_2048k     R4  dense  avoided min  98.4% med  99.1% max  99.7%  rank0 25041
+qwen38_interleaved_2048k     R8  block  avoided min  91.4% med  92.4% max  93.1%  rank0 154880
+qwen38_interleaved_2048k     R8  dense  avoided min  96.7% med  98.0% max  99.4%  rank0 47051
+qwen38_interleaved_2048k     R16 block  avoided min  91.3% med  92.6% max  93.7%  rank0 155136
+qwen38_interleaved_2048k     R16 dense  avoided min  97.2% med  97.9% max  99.4%  rank0 48272
+qwen38_mixed_1024k           R4  block  avoided min  54.8% med  59.0% max  62.9%  rank0 355328
+qwen38_mixed_1024k           R4  dense  avoided min  66.7% med  80.6% max  81.3%  rank0 262177 (measured 262177)
+qwen38_mixed_1024k           R8  block  avoided min  59.8% med  69.7% max  77.7%  rank0 328576 (measured 328576)
+qwen38_mixed_1024k           R8  dense  avoided min  77.9% med  80.3% max  83.5%  rank0 172653 (measured 172653)
+qwen38_mixed_1024k           R16 block  avoided min  64.4% med  68.1% max  76.9%  rank0 292992
+qwen38_mixed_1024k           R16 dense  avoided min  72.1% med  80.5% max  86.8%  rank0 274456
+qwen38_mixed_2048k           R4  block  avoided min  69.7% med  71.8% max  73.6%  rank0 433664
+qwen38_mixed_2048k           R4  dense  avoided min  80.1% med  88.1% max  90.9%  rank0 312352 (measured 312352)
+qwen38_mixed_2048k           R8  block  avoided min  74.1% med  76.6% max  80.5%  rank0 381696 (measured 381696)
+qwen38_mixed_2048k           R8  dense  avoided min  83.5% med  85.7% max  90.6%  rank0 301903 (measured 301903)
+qwen38_mixed_2048k           R16 block  avoided min  72.6% med  78.1% max  84.8%  rank0 448512 (measured 448512)
+qwen38_mixed_2048k           R16 dense  avoided min  83.5% med  86.8% max  90.0%  rank0 256574 (measured 256574)
+qwen38_mixed_4096k           R4  block  avoided min  97.5% med  99.5% max 100.0%  rank0 29440
+qwen38_mixed_4096k           R4  dense  avoided min  97.5% med  99.5% max 100.0%  rank0 29430
+qwen38_mixed_4096k           R8  block  avoided min  86.7% med  91.6% max  96.4%  rank0 419328
+qwen38_mixed_4096k           R8  dense  avoided min  86.7% med  91.6% max  96.5%  rank0 418529 (measured 418529)
+qwen38_mixed_4096k           R16 block  avoided min  88.2% med  92.0% max  94.9%  rank0 390656 (measured 390656)
+qwen38_mixed_4096k           R16 dense  avoided min  88.2% med  92.1% max  94.9%  rank0 389555 (measured 389555)
+qwen38_video_1024k           R4  block  avoided min  54.6% med  61.0% max  64.6%  rank0 357120
+qwen38_video_1024k           R4  dense  avoided min  54.7% med  61.1% max  64.7%  rank0 356593 (measured 356593)
+qwen38_video_1024k           R8  block  avoided min  59.8% med  61.4% max  69.7%  rank0 319232 (measured 319232)
+qwen38_video_1024k           R8  dense  avoided min  59.8% med  61.5% max  69.8%  rank0 318816 (measured 318816)
+qwen38_video_1024k           R16 block  avoided min  58.2% med  61.0% max  75.9%  rank0 409728
+qwen38_video_1024k           R16 dense  avoided min  58.2% med  61.0% max  75.9%  rank0 409197
+qwen38_video_2048k           R4  block  avoided min  86.5% med  92.7% max  96.3%  rank0 82816 (measured 82816)
+qwen38_video_2048k           R4  dense  avoided min  86.5% med  92.7% max  96.3%  rank0 82575 (measured 82575)
+qwen38_video_2048k           R8  block  avoided min  87.2% med  91.8% max  96.4%  rank0 222848 (measured 222848)
+qwen38_video_2048k           R8  dense  avoided min  87.3% med  91.8% max  96.4%  rank0 222759 (measured 222759)
+qwen38_video_2048k           R16 block  avoided min  65.4% med  73.8% max  81.6%  rank0 617856
+qwen38_video_2048k           R16 dense  avoided min  65.4% med  73.9% max  81.6%  rank0 616968 (measured 616968)
+qwen38_video_4096k           R4  block  avoided min  94.6% med  95.5% max  98.2%  rank0 55424
+qwen38_video_4096k           R4  dense  avoided min  94.6% med  95.5% max  98.2%  rank0 55331
+qwen38_video_4096k           R8  block  avoided min  95.3% med  98.0% max 100.0%  rank0 1408 (measured 1408)
+qwen38_video_4096k           R8  dense  avoided min  95.3% med  98.0% max 100.0%  rank0 1374 (measured 1374)
+qwen38_video_4096k           R16 block  avoided min  94.4% med  96.0% max  98.4%  rank0 141568 (measured 141568)
+qwen38_video_4096k           R16 dense  avoided min  94.4% med  96.0% max  98.4%  rank0 141362 (measured 141362)
+qwen3vl_interleaved_1024k    R4  block  avoided min  93.5% med  96.1% max  98.1%  rank0 31616
+qwen3vl_interleaved_1024k    R4  dense  avoided min  93.6% med  96.2% max  98.3%  rank0 30745
+qwen3vl_interleaved_1024k    R8  block  avoided min  85.2% med  87.3% max  89.5%  rank0 135552
+qwen3vl_interleaved_1024k    R8  dense  avoided min  97.1% med  98.3% max  99.5%  rank0 15869
+qwen3vl_interleaved_1024k    R16 block  avoided min  84.4% med  87.6% max  89.6%  rank0 152960
+qwen3vl_interleaved_1024k    R16 dense  avoided min  84.4% med  87.6% max  89.6%  rank0 152960
+qwen3vl_mixed_1024k          R4  block  avoided min  57.4% med  68.4% max  75.3%  rank0 335104
+qwen3vl_mixed_1024k          R4  dense  avoided min  72.1% med  74.5% max  80.5%  rank0 219060
+qwen3vl_mixed_1024k          R8  block  avoided min  63.5% med  68.5% max  71.4%  rank0 284672
+qwen3vl_mixed_1024k          R8  dense  avoided min  74.4% med  78.9% max  80.6%  rank0 235085
+qwen3vl_mixed_1024k          R16 block  avoided min  60.8% med  69.8% max  73.5%  rank0 269952
+qwen3vl_mixed_1024k          R16 dense  avoided min  73.6% med  77.9% max  85.5%  rank0 226496
+qwen3vl_video_1024k          R4  block  avoided min  54.6% med  61.0% max  64.6%  rank0 357376
+qwen3vl_video_1024k          R4  dense  avoided min  54.6% med  61.1% max  64.6%  rank0 356821
+qwen3vl_video_1024k          R8  block  avoided min  59.8% med  61.4% max  69.7%  rank0 319232
+qwen3vl_video_1024k          R8  dense  avoided min  59.8% med  61.5% max  69.8%  rank0 318984
+qwen3vl_video_1024k          R16 block  avoided min  50.4% med  62.7% max  73.3%  rank0 396928
+qwen3vl_video_1024k          R16 dense  avoided min  50.5% med  62.7% max  73.4%  rank0 396518
+block: avoided share over all ranks 50.4%-100.0%
+dense: avoided share over all ranks 50.5%-100.0%

@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the MARBLE paper below."
+title: "MARBLE: Exact, Load-Balanced Sequence Parallelism for Packed Multimodal Attention"
+authors:
+  - given-names: Alex
+    family-names: Redden
+  - given-names: Akshat
+    family-names: Tripathi
+  - given-names: Delong
+    family-names: Meng
+  - given-names: Sam
+    family-names: Pan
+  - given-names: Zhucheng
+    family-names: Tu
+  - given-names: Narayanan
+    family-names: Sundaram
+  - given-names: Thomas
+    family-names: Neff
+repository-code: "https://github.com/lumalabs/marble-usp-attention"
+license: MIT
+preferred-citation:
+  type: article
+  title: "MARBLE: Exact, Load-Balanced Sequence Parallelism for Packed Multimodal Attention"
+  authors:
+    - given-names: Alex
+      family-names: Redden
+    - given-names: Akshat
+      family-names: Tripathi
+    - given-names: Delong
+      family-names: Meng
+    - given-names: Sam
+      family-names: Pan
+    - given-names: Zhucheng
+      family-names: Tu
+    - given-names: Narayanan
+      family-names: Sundaram
+    - given-names: Thomas
+      family-names: Neff
+  journal: "arXiv preprint"
+  year: 2026

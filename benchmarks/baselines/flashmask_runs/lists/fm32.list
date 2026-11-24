@@ -1,0 +1,8 @@
+--layout benchmarks/layouts/packs/qwen38_video_1024k.json#0 --seq-len 1048576 --heads 24 --kv-heads 4 --head-dim 256 --iters 5 --warmup 2 --ipo --label fm_q38
+--layout benchmarks/layouts/packs/qwen38_video_1024k.json#0 --seq-len 1048576 --heads 32 --kv-heads 4 --head-dim 128 --iters 5 --warmup 2 --ipo --label fm_q3vl30
+--layout benchmarks/layouts/packs/qwen38_video_2048k.json#0 --seq-len 2097152 --heads 24 --kv-heads 4 --head-dim 256 --iters 5 --warmup 2 --ipo --label fm_q38
+--layout benchmarks/layouts/packs/qwen38_video_2048k.json#0 --seq-len 2097152 --heads 32 --kv-heads 4 --head-dim 128 --iters 5 --warmup 2 --ipo --label fm_q3vl30
+--layout benchmarks/layouts/packs/qwen38_mixed_1024k.json#0 --seq-len 1048576 --heads 24 --kv-heads 4 --head-dim 256 --iters 5 --warmup 2 --ipo --label fm_q38
+--layout benchmarks/layouts/packs/qwen38_mixed_1024k.json#0 --seq-len 1048576 --heads 32 --kv-heads 4 --head-dim 128 --iters 5 --warmup 2 --ipo --label fm_q3vl30
+--layout benchmarks/layouts/packs/qwen38_mixed_2048k.json#0 --seq-len 2097152 --heads 24 --kv-heads 4 --head-dim 256 --iters 5 --warmup 2 --ipo --label fm_q38
+--layout benchmarks/layouts/packs/qwen38_mixed_2048k.json#0 --seq-len 2097152 --heads 32 --kv-heads 4 --head-dim 128 --iters 5 --warmup 2 --ipo --label fm_q3vl30

@@ -1,0 +1,21 @@
+--layout benchmarks/layouts/packs/bagel_video_8192k.json#0 --seq-len 8388608 --heads 28 --kv-heads 4 --head-dim 128 --iters 3 --warmup 1 --label fm3_bagel
+--layout benchmarks/layouts/packs/qwen38_video_2048k.json#0 --seq-len 2097152 --heads 24 --kv-heads 4 --head-dim 256 --iters 5 --warmup 2 --label fm3_q38
+--layout benchmarks/layouts/packs/qwen38_video_2048k.json#0 --seq-len 2097152 --heads 32 --kv-heads 4 --head-dim 128 --iters 5 --warmup 2 --label fm3_q3vl30
+--layout benchmarks/layouts/packs/qwen38_mixed_2048k.json#0 --seq-len 2097152 --heads 24 --kv-heads 4 --head-dim 256 --iters 5 --warmup 2 --label fm3_q38
+--layout benchmarks/layouts/packs/qwen38_mixed_2048k.json#0 --seq-len 2097152 --heads 32 --kv-heads 4 --head-dim 128 --iters 5 --warmup 2 --label fm3_q3vl30
+--layout benchmarks/layouts/packs/qwen38_video_4096k.json#0 --seq-len 4194304 --heads 24 --kv-heads 4 --head-dim 256 --iters 5 --warmup 2 --label fm3_q38
+--layout benchmarks/layouts/packs/qwen38_video_4096k.json#0 --seq-len 4194304 --heads 32 --kv-heads 4 --head-dim 128 --iters 5 --warmup 2 --label fm3_q3vl30
+--layout benchmarks/layouts/packs/qwen38_mixed_4096k.json#0 --seq-len 4194304 --heads 24 --kv-heads 4 --head-dim 256 --iters 5 --warmup 2 --label fm3_q38
+--layout benchmarks/layouts/packs/qwen38_mixed_4096k.json#0 --seq-len 4194304 --heads 32 --kv-heads 4 --head-dim 128 --iters 5 --warmup 2 --label fm3_q3vl30
+--layout benchmarks/layouts/packs/molmo2_video_2048k.json#0 --seq-len 2097152 --heads 32 --kv-heads 8 --head-dim 128 --iters 4 --warmup 2 --label fm3_molmo2
+--layout benchmarks/layouts/packs/gemma3_video_2048k.json#0 --seq-len 2097152 --heads 32 --kv-heads 16 --head-dim 128 --iters 4 --warmup 2 --label fm3_gemma3
+--layout benchmarks/layouts/packs/gemma3_video_2048k.json#0 --seq-len 2097152 --heads 32 --kv-heads 16 --head-dim 128 --sliding-window 1024 --iters 4 --warmup 2 --label fm3_gemma3_swa
+--layout benchmarks/layouts/packs/molmo2_video_4096k.json#0 --seq-len 4194304 --heads 32 --kv-heads 8 --head-dim 128 --iters 4 --warmup 2 --label fm3_molmo2
+--layout benchmarks/layouts/packs/gemma3_video_4096k.json#0 --seq-len 4194304 --heads 32 --kv-heads 16 --head-dim 128 --iters 4 --warmup 2 --label fm3_gemma3
+--layout benchmarks/layouts/packs/gemma3_video_4096k.json#0 --seq-len 4194304 --heads 32 --kv-heads 16 --head-dim 128 --sliding-window 1024 --iters 4 --warmup 2 --label fm3_gemma3_swa
+--layout benchmarks/layouts/packs/molmo2_mixed_2048k.json#0 --seq-len 2097152 --heads 32 --kv-heads 8 --head-dim 128 --iters 4 --warmup 2 --label fm3_molmo2
+--layout benchmarks/layouts/packs/gemma3_mixed_2048k.json#0 --seq-len 2097152 --heads 32 --kv-heads 16 --head-dim 128 --iters 4 --warmup 2 --label fm3_gemma3
+--layout benchmarks/layouts/packs/gemma3_mixed_2048k.json#0 --seq-len 2097152 --heads 32 --kv-heads 16 --head-dim 128 --sliding-window 1024 --iters 4 --warmup 2 --label fm3_gemma3_swa
+--layout benchmarks/layouts/packs/molmo2_mixed_4096k.json#0 --seq-len 4194304 --heads 32 --kv-heads 8 --head-dim 128 --iters 4 --warmup 2 --label fm3_molmo2
+--layout benchmarks/layouts/packs/gemma3_mixed_4096k.json#0 --seq-len 4194304 --heads 32 --kv-heads 16 --head-dim 128 --iters 4 --warmup 2 --label fm3_gemma3
+--layout benchmarks/layouts/packs/gemma3_mixed_4096k.json#0 --seq-len 4194304 --heads 32 --kv-heads 16 --head-dim 128 --sliding-window 1024 --iters 4 --warmup 2 --label fm3_gemma3_swa

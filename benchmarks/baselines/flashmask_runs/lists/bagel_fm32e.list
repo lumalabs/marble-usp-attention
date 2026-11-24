@@ -1,0 +1,2 @@
+--layout benchmarks/layouts/packs/bagel_video_4096k.json#0 --seq-len 4194304 --heads 28 --kv-heads 4 --head-dim 128 --iters 3 --warmup 1 --ipo --label fm_bagel
+--layout benchmarks/layouts/packs/bagel_video_4096k.json#0 --seq-len 4194304 --heads 28 --kv-heads 4 --head-dim 128 --ulysses 4 --iters 3 --warmup 1 --ipo --label fm_bagel

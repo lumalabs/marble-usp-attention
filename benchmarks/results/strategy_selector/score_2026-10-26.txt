@@ -1,0 +1,42 @@
+# Strategy selector score, 2026-10-26. Inputs: every H100 32-128 GPU attention row re-measured on 2026-10-26 (current code; results/mlsys rebuild of that date, 62 files).
+# Command: PYTHONPATH=src python benchmarks/fit_strategy.py --layouts <unpacked packs> <rows>/*.jsonl (fits start from fit_strategy.PRIOR; held-out fits never see the scored group)
+
+336 rows, 64 cases
+fitted: {'sparse_tflops': np.float64(540.366), 'dense_tflops': np.float64(540.366), 'fa3_tflops': np.float64(470.0), 'intra_gbps': np.float64(177.499), 'inter_gbps': np.float64(29.379), 'ring_step_ms': np.float64(11.199), 'ring_step_intra_ms': np.float64(1.0), 'gather_ms': np.float64(1.254), 'noise_tflops': np.float64(486.276)}
+rms log error 0.150
+
+in-sample: 53 cases, picked the best in 89%, within 5% in 96%, within 10% in 98%; mean regret 1.006, worst 1.18
+  top-2 shortlist, fastest measured: best in 100%, within 5% in 100%, worst 1.00
+  top-3 shortlist, fastest measured: best in 100%, within 5% in 100%, worst 1.00
+  1.18x  ('bagel', 'bagel_video_1024k.json', 32, 0)  picked R8U4 gather/chunks (475 ms), best R8U4 ring/chunked (402 ms)
+  1.07x  ('q3vl30', 'qwen38_mixed_4096k.json', 128, 0)  picked R16U8kv2 gather/chunks (100 ms), best R32U4 gather/chunks (94 ms)
+  1.02x  ('q38', 'qwen38_mixed_4096k.json', 128, 0)  picked R16U8kv2 gather/chunks (217 ms), best R32U4 gather/chunks (213 ms)
+  1.02x  ('q38', 'qwen38_video_4096k.json', 64, 0)  picked R8U8kv2 gather/chunks (603 ms), best R16U4 gather/chunks (594 ms)
+  1.01x  ('q38', 'qwen38_video_2048k.json', 32, 0)  picked R4U8kv2 gather/chunks (610 ms), best R8U4 gather/chunks (607 ms)
+  1.00x  ('q3vl30', 'qwen38_video_4096k.json', 64, 0)  picked R8U8kv2 gather/chunks (278 ms), best R16U4 gather/chunks (277 ms)
+  1.00x  ('bagel', 'bagel_mix_1024k.json', 32, 0)  picked R8U4 gather/chunks (45 ms), best R8U4 gather/chunks (45 ms)
+  1.00x  ('bagel', 'bagel_mix_2048k.json', 32, 0)  picked R8U4 gather/chunks (90 ms), best R8U4 gather/chunks (90 ms)
+
+held-out model: 53 cases, picked the best in 81%, within 5% in 91%, within 10% in 92%; mean regret 1.015, worst 1.20
+  top-2 shortlist, fastest measured: best in 98%, within 5% in 98%, worst 1.15
+  top-3 shortlist, fastest measured: best in 100%, within 5% in 100%, worst 1.00
+  1.20x  ('bagel', 'bagel_video_2048k.json', 32, 0)  picked R16U2 gather/chunks (1212 ms), best R8U4 ring/chunked (1006 ms)
+  1.18x  ('bagel', 'bagel_video_1024k.json', 32, 0)  picked R8U4 gather/chunks (475 ms), best R8U4 ring/chunked (402 ms)
+  1.16x  ('gemma3_swa', 'gemma3_video_2048k.json', 32, 1024)  picked R8U4 gather/chunks (27 ms), best R32U1 gather/chunks (23 ms)
+  1.15x  ('bagel', 'bagel_video_8192k.json', 64, 0)  picked R16U4 gather/chunks (2502 ms), best R16U4 ring/chunked (2179 ms)
+  1.07x  ('q3vl30', 'qwen38_mixed_4096k.json', 128, 0)  picked R16U8kv2 gather/chunks (100 ms), best R32U4 gather/chunks (94 ms)
+  1.02x  ('q38', 'qwen38_mixed_4096k.json', 128, 0)  picked R16U8kv2 gather/chunks (217 ms), best R32U4 gather/chunks (213 ms)
+  1.02x  ('q38', 'qwen38_video_4096k.json', 64, 0)  picked R8U8kv2 gather/chunks (603 ms), best R16U4 gather/chunks (594 ms)
+  1.01x  ('q38', 'qwen38_video_2048k.json', 32, 0)  picked R4U8kv2 gather/chunks (610 ms), best R8U4 gather/chunks (607 ms)
+
+held-out world: 53 cases, picked the best in 83%, within 5% in 91%, within 10% in 92%; mean regret 1.016, worst 1.21
+  top-2 shortlist, fastest measured: best in 96%, within 5% in 96%, worst 1.20
+  top-3 shortlist, fastest measured: best in 100%, within 5% in 100%, worst 1.00
+  1.21x  ('bagel', 'bagel_video_4096k.json', 32, 0)  picked R8U4 gather/chunks (2215 ms), best R8U4 ring/chunked (1831 ms)
+  1.20x  ('bagel', 'bagel_video_2048k.json', 32, 0)  picked R16U2 gather/chunks (1212 ms), best R8U4 ring/chunked (1006 ms)
+  1.18x  ('bagel', 'bagel_video_1024k.json', 32, 0)  picked R8U4 gather/chunks (475 ms), best R8U4 ring/chunked (402 ms)
+  1.15x  ('bagel', 'bagel_video_8192k.json', 64, 0)  picked R16U4 gather/chunks (2502 ms), best R16U4 ring/chunked (2179 ms)
+  1.07x  ('q3vl30', 'qwen38_mixed_4096k.json', 128, 0)  picked R16U8kv2 gather/chunks (100 ms), best R32U4 gather/chunks (94 ms)
+  1.02x  ('q38', 'qwen38_mixed_4096k.json', 128, 0)  picked R16U8kv2 gather/chunks (217 ms), best R32U4 gather/chunks (213 ms)
+  1.02x  ('q38', 'qwen38_video_4096k.json', 64, 0)  picked R8U8kv2 gather/chunks (603 ms), best R16U4 gather/chunks (594 ms)
+  1.01x  ('q38', 'qwen38_video_2048k.json', 32, 0)  picked R4U8kv2 gather/chunks (610 ms), best R8U4 gather/chunks (607 ms)

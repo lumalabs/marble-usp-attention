@@ -1,0 +1,8 @@
+{"impl": "fa3", "layout": "causal", "seq_len": 131072, "fwd_ms": 24.72771167755127, "fwd_bwd_ms": 96.29448318481445, "fwd_tflops": 711.4414989768323, "fwd_bwd_tflops": 639.4252181542839}
+{"impl": "fa4", "layout": "causal", "seq_len": 131072, "fwd_ms": 27.18836784362793, "fwd_bwd_ms": 97.6852798461914, "fwd_tflops": 647.0531943412362, "fwd_bwd_tflops": 630.3213853146844}
+{"impl": "fa3", "layout": "causal", "seq_len": 524288, "fwd_ms": 415.56150817871094, "fwd_bwd_ms": 1572.7757568359375, "fwd_tflops": 677.3377900547042, "fwd_bwd_tflops": 626.3857344275267}
+{"impl": "fa4", "layout": "causal", "seq_len": 524288, "fwd_ms": 448.75868225097656, "fwd_bwd_ms": 1620.827880859375, "fwd_tflops": 627.2313488614525, "fwd_bwd_tflops": 607.8154930387467}
+{"impl": "fa3", "layout": "full", "seq_len": 131072, "fwd_ms": 50.086143493652344, "fwd_bwd_ms": 199.1039810180664, "fwd_tflops": 702.4771650325022, "fwd_bwd_tflops": 618.4974387816885}
+{"impl": "fa4", "layout": "full", "seq_len": 131072, "fwd_ms": 51.09035110473633, "fwd_bwd_ms": 193.87804412841797, "fwd_tflops": 688.6696084100747, "fwd_bwd_tflops": 635.1688911682279}
+{"impl": "fa3", "layout": "full", "seq_len": 524288, "fwd_ms": 867.0307922363281, "fwd_bwd_ms": 3325.00634765625, "fwd_tflops": 649.2848448545848, "fwd_bwd_tflops": 592.5777670660527}
+{"impl": "fa4", "layout": "full", "seq_len": 524288, "fwd_ms": 854.4192199707031, "fwd_bwd_ms": 3223.60693359375, "fwd_tflops": 658.8685510148224, "fwd_bwd_tflops": 611.217458444299}
